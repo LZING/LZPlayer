@@ -77,7 +77,7 @@ UITextFieldDelegate, LZVideoPlayerDelegate>
     //初始化播放器
     self.videoPlayer = [[LZVideoPlayer alloc] initWithParentView:self.videoView];
     self.videoPlayer.delegate = self;
-    NSURL *url = [NSURL URLWithString:@"http://source-netcenter.malazhibo.lashou.com/malazhibo-z1.lashou-live.58057b485e77b0969f2836df--20161104231840.mp4"];
+    NSURL *url = [NSURL URLWithString:@"rtmp://live.hkstv.hk.lxdns.com/live/hks"];
     [self.videoPlayer setURL:url];
     //    self.videoPlayer.player.view.frame = self.videoView.bounds;
     //    [self.videoView addSubview:self.videoPlayer.player.view];
